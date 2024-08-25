@@ -369,9 +369,9 @@ footer {
   .about .left .box {
     gap: 6px;
     display:flex;
-    display:row;
     justify_content: center;
     align_items: center;
+    padding: 1rem;
   }
   .about,
   .abt {
@@ -383,6 +383,7 @@ footer {
     font-size: 10px;
     width:16px
     height: 10px;
+    flex-direction: column;
   }
   .about .right{border-right: 2px solid rgba(3, 248, 248, 0.39);}
  .innerprofile img{
