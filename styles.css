@@ -363,22 +363,28 @@ footer {
 @media (max-width: 480px) {
   nav .links {
     flex-direction: row;
-    font-size: 5px;
-    gap: 4px;
+    gap: 1px;
     padding: 0.5rem 0;
   }
   .about .left .box {
-    gap: 10px;
+    gap: 8px;
+    justify_content: center;
+    align_items: center;
   }
   .about,
   .abt {
     flex-wrap: wrap;
   }
   .about .right .hico {
-    font-size: 4px;
+    font-size: 10px;
+    width:20px
+    height: 12px;
     border-right: 2px solid rgba(3, 248, 248, 0.39);
   }
-
+ .innerprofile img{
+   height:130px;
+   width: 130px;
+ }
   .abt .holder {
     flex-direction: row;
     justify-content: center;
