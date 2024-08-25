@@ -366,7 +366,7 @@ footer {
     gap: 10px;
     padding: 0.5rem 0;
   }
-  .about .left {
+  .about .left .box {
     gap: 15px;
   }
   .about,
