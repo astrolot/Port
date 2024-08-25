@@ -364,26 +364,30 @@ footer {
   nav .links {
     flex-direction: row;
     gap: 1px;
-    padding: 0.5rem 0;
+    padding: 0;
   }
   .about .left .box {
-    gap: 8px;
+    gap: 6px;
+    display:flex;
+    display:row;
     justify_content: center;
     align_items: center;
   }
   .about,
   .abt {
     flex-wrap: wrap;
+  }.profile{
+    gap:5px;
   }
   .about .right .hico {
     font-size: 10px;
-    width:20px
-    height: 12px;
-    border-right: 2px solid rgba(3, 248, 248, 0.39);
+    width:16px
+    height: 10px;
   }
+  .about .right{border-right: 2px solid rgba(3, 248, 248, 0.39);}
  .innerprofile img{
-   height:130px;
-   width: 130px;
+   height:150px;
+   width: 150px;
  }
   .abt .holder {
     flex-direction: row;
