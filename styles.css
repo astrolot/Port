@@ -360,19 +360,24 @@ footer {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
   nav .links {
     flex-direction: column;
     gap: 10px;
     padding: 0.5rem 0;
   }
+  .about .left {
+    gap: 15px;
+  }
   .about,
   .abt {
     flex-wrap: wrap;
   }
-  .about .right {
+  .about .right .hico {
+    font-size: 12px;
     border-right: 2px solid rgba(3, 248, 248, 0.39);
   }
+
   .abt .holder {
     flex-direction: row;
     justify-content: center;
