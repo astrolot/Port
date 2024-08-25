@@ -360,7 +360,7 @@ footer {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 200px) {
   nav .links {
     flex-direction: column;
     gap: 10px;
