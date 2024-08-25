@@ -362,20 +362,20 @@ footer {
 
 @media (max-width: 480px) {
   nav .links {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    font-size: 5px;
+    gap: 4px;
     padding: 0.5rem 0;
   }
   .about .left .box {
-    gap: 15px;
+    gap: 10px;
   }
   .about,
   .abt {
     flex-wrap: wrap;
   }
   .about .right .hico {
-    color: red;
-    font-size: 12px;
+    font-size: 4px;
     border-right: 2px solid rgba(3, 248, 248, 0.39);
   }
 
