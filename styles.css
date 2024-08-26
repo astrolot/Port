@@ -367,11 +367,13 @@ footer {
     padding: 0;
   }
   .about .left .box {
-    gap: 6px;
+    gap: 4px;
     display:flex;
     justify_content: center;
     align_items: center;
-    padding: 1rem;
+  }
+  .about .logos i, .logos{
+    width:8px;
   }
   .about,
   .abt {
